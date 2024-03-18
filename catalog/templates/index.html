@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1> Local library </h1>
+
+    <ul>
+        <li> Book: {{ num_books }}</li>
+        <li> Authors: {{ num_authors }}</li>
+        <li> Book Copies: {{ num_book_instance }}</li>
+        <li> Book copies available now: {{ num_instances_available }}</li>
+    </ul>
+
+{% endblock %}
